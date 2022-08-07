@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.all{
+   padding: 5%;
+   width: 100%;
+}
+.bg1{
+    background-image: url('../images/hero-bg.svg');
+    background-repeat: no-repeat;
+}
+/* .bg2{
+    background-image: url('../images/right_yz6hn3.png');
+} */
+.sec1 h2{
+    color: #514949;
+    text-align: center;
+}
+.sec1 h1{
+    color: #514949;
+    text-align: center;
+    padding-top: 5%;
+}
+.sec1 p{
+    color: #514949;
+    text-align: center;
+    padding: 5% 20%;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+
+}
+.sec1 p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.but{
+    text-align: center;
+    margin-bottom: 40%;
+}
+.but1 {
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(241, 28, 28);
+    color: white;
+    border: none;
+    opacity: 0.9;
+}
+.but1 a{
+    text-decoration: none;
+    color: white;
+}
+.but1:hover{
+    background-color: white;
+    color: rgb(241, 28, 28);
+    border: 1px red solid;
+}
+.but1 a:hover{
+    background-color: white;
+    color: rgb(241, 28, 28);
+}
+.but2{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(241, 28, 28);
+    border: none;
+    border: 1px red solid;
+    opacity: 0.9;
+}
+.but2 a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.but2:hover{
+    background-color:  rgb(241, 28, 28);
+    color: white;
+}
+.but2 a:hover{
+    background-color: rgb(241, 28, 28);
+    color: white;
+}
+.sec2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec2 h4{
+    padding-bottom: 15px;
+    color: rgb(241, 28, 28);
+}
+.sec2 h2{
+    color: #514949;
+    line-height: 35px;
+    opacity: 0.9;
+}
+.sec3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.training{
+    border: 1px solid pink;
+    width: 32.3%;
+    padding: 60px 15px;
+    background-color: rgb(247, 236, 238);
+    border: none;
+}
+.training h4{
+    padding-top: 50px;
+}
+.training span{
+    border: 1px solid black;
+    padding: 40px 20px;
+    background-color: white;
+    border: none;
+
+}
+.training p{
+    margin-top: 80px;
+    line-height: 25px;
+    color: #514949
+}
+.trainbut{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+    cursor: pointer;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+
+.sec4{
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+    color: #514949;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+.team{
+    width: 30%;
+}
+.links p{
+    padding-top: 15px;
+}
+.links p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+
+.contact p{
+    padding-top: 15px;
+}
+.contact p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.follow{
+    width: 15%;
+    text-align: end;
+}
+
+.follow h4{
+    margin-bottom: 10px;
+    padding-right: 50px;
+
+}
+img{
+    width: 15%;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+footer{
+    text-align: center;
+}
+footer h4{
+    margin: 30px 0px 120px 0px;
+    color: #514949;
+    /* font-size: 16px; */
+}
+
+@media only screen and (max-width: 600px){
+    .sec3{
+        flex-direction: column;
+
+    }
+    .training{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sec4{
+        flex-direction: column;
+    }
+    .team{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px
+    }
+    .follow{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px){
+    .sec3{
+        flex-direction: column;
+
+    }
+    .training{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sec4{
+        flex-direction: column;
+    }
+    .team{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px
+    }
+    .follow{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .sec4{
+        flex-direction: row;
+    }
+    .team{
+        width: 30%;
+        text-align: start;
+    }
+    .follow{
+        text-align: end;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .sec3{
+        flex-direction: row;
+    }
+    .training{
+        width: 32.3%;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+}
