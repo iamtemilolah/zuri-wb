@@ -1,0 +1,758 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@iamtemilolah 
+Liddy01
+/
+Zurireplicate
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+working on zuri website
+ master
+@Liddy01
+Liddy01 committed 9 hours ago 
+0 parents commit 9e8e98c0418ad56893544761617e0a3e0a209dee
+ 
+Showing 50 changed files with 901 additions and 0 deletions.
+Filter changed files
+ 40  
+CSS/industryexperience.css
+@@ -0,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 17px;
+    margin: 10px 70px;
+}
+.navdiv{
+    display: flex;
+}
+.home a:hover{
+    background-color: rgb(145, 194, 178);
+
+}
+.impact a:hover{
+    background-color: rgb(145, 194, 178);
+}
+.hiretalent{
+    background-color: rgb(241, 28, 28);
+    margin: 5px 20px;
+    border-radius: 0px 0px 10px 0px;
+} 
+ 8  
+CSS/industrypage.css
+@@ -0,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    /* display: flex; */
+} 
+ 253  
+CSS/style.css
+@@ -0,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.all{
+   padding: 5%;
+   width: 100%;
+}
+.bg1{
+    background-image: url('../images/hero-bg.svg');
+    background-repeat: no-repeat;
+}
+/* .bg2{
+    background-image: url('../images/right_yz6hn3.png');
+} */
+.sec1 h2{
+    color: #514949;
+    text-align: center;
+}
+.sec1 h1{
+    color: #514949;
+    text-align: center;
+    padding-top: 5%;
+}
+.sec1 p{
+    color: #514949;
+    text-align: center;
+    padding: 5% 20%;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+
+}
+.sec1 p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.but{
+    text-align: center;
+    margin-bottom: 40%;
+}
+.but1 {
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: rgb(241, 28, 28);
+    color: white;
+    border: none;
+    opacity: 0.9;
+}
+.but1 a{
+    text-decoration: none;
+    color: white;
+}
+.but1:hover{
+    background-color: white;
+    color: rgb(241, 28, 28);
+    border: 1px red solid;
+}
+.but1 a:hover{
+    background-color: white;
+    color: rgb(241, 28, 28);
+}
+.but2{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(241, 28, 28);
+    border: none;
+    border: 1px red solid;
+    opacity: 0.9;
+}
+.but2 a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.but2:hover{
+    background-color:  rgb(241, 28, 28);
+    color: white;
+}
+.but2 a:hover{
+    background-color: rgb(241, 28, 28);
+    color: white;
+}
+.sec2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec2 h4{
+    padding-bottom: 15px;
+    color: rgb(241, 28, 28);
+}
+.sec2 h2{
+    color: #514949;
+    line-height: 35px;
+    opacity: 0.9;
+}
+.sec3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.training{
+    border: 1px solid pink;
+    width: 32.3%;
+    padding: 60px 15px;
+    background-color: rgb(247, 236, 238);
+    border: none;
+}
+.training h4{
+    padding-top: 50px;
+}
+.training span{
+    border: 1px solid black;
+    padding: 40px 20px;
+    background-color: white;
+    border: none;
+
+}
+.training p{
+    margin-top: 80px;
+    line-height: 25px;
+    color: #514949
+}
+.trainbut{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+    cursor: pointer;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+
+.sec4{
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+    color: #514949;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+.team{
+    width: 30%;
+}
+.links p{
+    padding-top: 15px;
+}
+.links p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+
+.contact p{
+    padding-top: 15px;
+}
+.contact p a{
+    text-decoration: none;
+    color: rgb(241, 28, 28);
+}
+.follow{
+    width: 15%;
+    text-align: end;
+}
+
+.follow h4{
+    margin-bottom: 10px;
+    padding-right: 50px;
+
+}
+img{
+    width: 15%;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+footer{
+    text-align: center;
+}
+footer h4{
+    margin: 30px 0px 120px 0px;
+    color: #514949;
+    /* font-size: 16px; */
+}
+
+@media only screen and (max-width: 600px){
+    .sec3{
+        flex-direction: column;
+
+    }
+    .training{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sec4{
+        flex-direction: column;
+    }
+    .team{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px
+    }
+    .follow{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px){
+    .sec3{
+        flex-direction: column;
+
+    }
+    .training{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sec4{
+        flex-direction: column;
+    }
+    .team{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px
+    }
+    .follow{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 768px){
+    .sec4{
+        flex-direction: row;
+    }
+    .team{
+        width: 30%;
+        text-align: start;
+    }
+    .follow{
+        text-align: end;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .sec3{
+        flex-direction: row;
+    }
+    .training{
+        width: 32.3%;
+    }
+}
+@media only screen and (min-width: 1200px){
+
+} 
+ 13  
+images/ENG.svg
+
+ 9  
+images/Figma logo.svg
+
+ 13  
+images/GER.svg
+Unable to render code block
+
+ BIN +7.77 KB 
+images/IG.png
+Unable to render code block
+
+ 12  
+images/NIG.svg
+Unable to render code block
+
+ BIN +22.6 KB 
+images/Star.jpg
+Unable to render code block
+
+ 11  
+images/adobe-xd logo.svg
+Unable to render code block
+
+ 14  
+images/css-3 logo.svg
+Unable to render code block
+
+ 3  
+images/facebook.svg
+Unable to render code block
+
+ BIN +850 Bytes 
+images/fb.png
+Unable to render code block
+
+ 13  
+images/hand.svg
+Unable to render code block
+
+ 4  
+images/hero-bg.svg
+Unable to render code block
+
+ 19  
+images/html.svg
+Unable to render code block
+
+ BIN +1.24 KB 
+images/in.png
+Unable to render code block
+
+ 18  
+images/ind.svg
+Unable to render code block
+
+ 13  
+images/industryexperiencelogo2.svg
+Unable to render code block
+
+ 11  
+images/javascript logo.svg
+Unable to render code block
+
+ BIN +931 KB 
+images/lady1.jpg
+Unable to render code block
+
+ 3  
+images/linkd.svg
+Unable to render code block
+
+ 16  
+images/logo (1).svg
+Unable to render code block
+
+ 16  
+images/logo (2).svg
+Unable to render code block
+
+ 16  
+images/logo (3).svg
+Unable to render code block
+
+ 13  
+images/logo (4).svg
+Unable to render code block
+
+ 13  
+images/logo (5).svg
+Unable to render code block
+
+ 16  
+images/logo.svg
+Unable to render code block
+
+ BIN +125 KB 
+images/male1.jpg
+Unable to render code block
+
+ 10  
+images/maleface.svg
+Unable to render code block
+
+ 22  
+images/many.svg
+Unable to render code block
+
+ 6  
+images/mech.svg
+Unable to render code block
+
+ 17  
+images/people.svg
+Unable to render code block
+
+ 5  
+images/php2 logo.svg
+Unable to render code block
+
+ 26  
+images/python-4 logo.svg
+Unable to render code block
+
+ BIN +20.2 KB 
+images/right_yz6hn3.png
+Unable to render code block
+
+ BIN +1.34 MB 
+images/section1.png
+Unable to render code block
+
+ BIN +339 KB 
+images/section2.png
+Unable to render code block
+
+ 4  
+images/section3wire.svg
+Unable to render code block
+
+ BIN +747 KB 
+images/section5-image.png
+Unable to render code block
+
+ 3  
+images/thick2.svg
+Unable to render code block
+
+ BIN +12.2 KB 
+images/thumbs.png
+Unable to render code block
+
+ BIN +2.94 KB 
+images/twit.png
+Unable to render code block
+
+ BIN +1.46 KB 
+images/twitter.png
+Unable to render code block
+
+ 10  
+images/ussa.svg
+Unable to render code block
+
+ 11  
+images/write.svg
+Unable to render code block
+
+ 3  
+images/youtube.svg
+Unable to render code block
+
+ 84  
+index.html
+@@ -0,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="">
+        <div class="bg1 all">
+            <div class="sec1">
+                <h2>Zuri.Team</h2>
+                <h1>Learn, Build, Grow.</h1>
+                <p>Unlock your Brilliance with our hands-on <a href="">beginner</a>
+                    and <a href="">expert training</a>. Zuri Team has been immensely successful in creating a global network of a highly adept intelligent workforce that can help your company achieve their mission-critical <a href="">projects and goals</a></p>
+            </div>
+            <div class="but">
+                <button class="but1"> <a href="industrypage.html">I'm new to the industry</a></button>
+                <button class="but2"> <a href="industryexperience.html">I need industry experience</a></button>
+            </div>
+        </div>
+        <div class="bg2 all">
+            <div class="sec2">
+                <h4>BY ZURI team</h4>
+                <h2>We cater for every level of <br>
+                    expertise and needs in the industry.</h2>
+            </div>
+            <div class="sec3">
+                <div class="training">
+                    <h4><span>Zuri.Training</span></h4>
+                    <p>We understand a complete beginner cannot become a professional after a few weeks, the aim here is to get you familiar enough with each the tools such that you’ll be able to continue learning on your own with minimal support.</p>
+                    <a href="" class="trainbut">I want to be trained></a>
+                </div>
+                <div class="training">
+                    <h4><span>Zuri.Internship</span></h4>
+                    <p>We place you in a work simulation. We give you tasks every week, the tasks ranges from easy to hard as you progress from stage to stage, making it to the final stage means you are ready for actual work.</p>
+                    <a href="" class="trainbut">I want to join the internship></a>
+                </div>
+                <div class="training">
+                    <h4><span>Zuri.Talent</span></h4>
+                    <p>Keeping pace with projects and being  on the look out for the extremely  talented individuals has become ever  more challenging. Here is where Zuri Team comes into play to bring the best suited talent for your company</p>
+                    <a href="" class="trainbut">I am looking for talent></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg3 all">
+        <div class="sec4">
+            <div class="team">
+                <h2>Zuri.Team</h2>
+            </div>
+            <div class="links team">
+                <h4>Links</h4>
+                <p><a href="">Store</a></p>
+                <p><a href="">Blog</a></p>
+            </div>
+            <div class="contact team">
+                <h4>Contact</h4>
+                <p>8 Jubilee-CMD Road, Magodo,<br>
+                    Lagos State</p>
+                <p><a href="">hello@zuri.team</a></p>
+            </div>
+            <div class="follow team">
+                <h4>Follow Us</h4>
+                <div class="images">
+                    <img src="./images/fb.png" alt="" class="img">
+                    <img src="./images/twitter.png" alt="" class="img">
+                    <img src="./images/IG.png" alt="" class="img">
+                    <img src="./images/in.png" alt="" class="img">
+                </div>
+            </div>
+
+        </div> 
+    </div>
+    </div>
+
+    <footer>
+        <h4>&copy;2020 ZURI TEAM</h4>
+    </footer>
+
+
+</body>
+</html> 
+ 125  
+industryexperience.html
+@@ -0,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/industryexperience.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+            <ul>
+                <div>
+                    <li><a href=""> <img src="./images/industryexperiencelogo2.svg" alt=""></a></li>
+                </div>
+                <div class="navdiv">
+                    <li class="home"><a href="">Home</a></li>
+                    <li class="impact"><a href="">Impact</a></li>
+                    <li class="impact"><a href="">Why Us</a></li>
+                    <li class="hiretalent"><a href="">Hire Talent</a></li>
+                </div>
+            </ul>
+    </nav>
+
+    <div>
+        <div>
+            <div>
+                <h1>Vetted and Trusted</h1>
+                <img src="./images/thick2.svg" alt="">
+            </div>
+            <div>
+                <p>At Zuri Team, we train, test and place talent in various industries. We have access to the best pool of skills in the tech Industry.</p>
+                <button>Hire Talent</button>
+                <button>Join Talent pool</button>
+            </div>
+            <div>
+                <img src="./images/section1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <div>
+                <h1>We have impacted the lives of thousands around the world</h1>
+                <p>6,000 trained in 14 months</p>
+                <p>Talent Placed in 5 countries</p>
+            </div>
+            <div>
+                <img src="./images/GER.svg" alt="">
+                <img src="./images/ENG.svg" alt="">
+                <img src="./images/ind.svg" alt="">
+                <img src="./images/NIG.svg" alt="">
+                <img src="./images/ussa.svg" alt="">
+            </div>
+            <div>
+                <img src="./images/section2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h1>Skills of our talents that you will need</h1>
+        </div>
+        <div>
+            <button>UI/UX Designers</button>
+            <button>DevOps Engineer</button>
+            <button>UI/UX Designers</button>
+            <button>Frontend Developers</button>
+        </div>
+        <div>
+            <h1>Where our talents work</h1>
+        </div>
+        <div>
+            <button>GitHub</button>
+            <button>Microsoft</button>
+            <button>Reskill Americans</button>
+            <button>Flutterwave</button>
+            <button>Google</button>
+            <button>Career Transitioners</button>
+
+        </div>
+    </div>
+
+    <div>
+        <h1>Why Hire our Talents</h1>
+        <div>
+            <img src="./images/people.svg" alt="">
+            <p>Zuri Team has a highly skilled set of talents that are built on referral and successful partnerships.</p>
+        </div>
+        <div>
+            <img src="./images/mech.svg" alt="">
+            <p>Our recruiters are exceptionally skilled in identifying top talent around the globe and matching them with the client's needs.</p>
+        </div>
+        <div>
+            <img src="./images/hand.svg" alt="">
+            <p>We have an 85% fill ratio for every open position we partner for.</p>
+        </div>
+        <div>
+            <img src="./images/write.svg" alt="">
+            <p>Contract renewal rate for our consultant is 90 percent.</p>
+        </div>
+        <div>
+            <img src="./images/people.svg" alt="">
+            <p>60% of our consultants are converted to full-time employees.</p>
+        </div>
+        <div>
+            <button>Hire Talent</button>
+            <button>Join Talent pool</button>
+        </div>
+
+        <footer>
+            <div>
+                <img src="images/logo (5).svg" alt="">
+            </div>
+
+
+        </footer>
+
+
+
+    </div>
+
+</body>
+</html> 
+ 28  
+industrypage.html
+@@ -0,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/industrypage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="box1">
+            <img src="./images/logo (2).svg" alt="">
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Why Us?</a></li>
+                    <li><a href="">Stacks Covered</a></li>
+                    <li><a href="">FAQS</a></li>
+                    <img src="./images/thumbs.png" alt="">
+                    <li><a href="">Enroll Now</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </div>
+
+</body>
+</html> 
